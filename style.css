@@ -70,7 +70,7 @@ body {
 .nav-arrow {
   position: absolute;
   cursor: pointer;
-  border: 6px solid white;
+  border: 2px solid white;
   border-radius: 100px;
 }
 
@@ -95,9 +95,9 @@ img {
   height: 625px;
   display: none;
   background-clip: content-box;
-  border: 8px solid black;
-  border-top-left-radius: 200px;
-  border-bottom-right-radius: 200px;
+  border: 2px solid black;
+  border-top-left-radius: 100px;
+  border-bottom-right-radius: 100px;
   /* border-radius: 79% 21% 57% 43% / 31% 22% 78% 69% ; */
 }
 
@@ -109,7 +109,7 @@ img {
   /* top: 2600px;
   left: 500px; */
   top: 650px;
-  left: 125px;
+  left: 150px;
 }
 
 .nav-circle {
@@ -117,7 +117,7 @@ img {
   height: 60px; */
   width: 15px;
   height: 15px;
-  border: 2px solid black;
+  border: 1px solid black;
   border-radius: 100px;
   cursor: pointer;
   transition: background-color 1s;
